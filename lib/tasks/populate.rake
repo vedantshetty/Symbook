@@ -37,7 +37,7 @@ namespace :fill do
       user = User.new(name: 'Soumik', email: 'soumik@socify.com', sex: 'male', password: 'password')
     user.skip_confirmation!
     user.save!
-    puts 'Created test user with email=vedant@socify.com and password=password'
+    puts 'Created test user with email=soumik@socify.com and password=password'
       
       user = User.new(name: 'Idli', email: 'idli@socify.com', sex: 'male', password: 'password')
     user.skip_confirmation!
@@ -47,13 +47,13 @@ namespace :fill do
       user = User.new(name: 'Gattu', email: 'gattu@socify.com', sex: 'male', password: 'password')
     user.skip_confirmation!
     user.save!
-    puts 'Created test user with email=vedant@socify.com and password=password'
+    puts 'Created test user with email=gattu@socify.com and password=password'
     
       
-      user = User.new(name: 'Vedant', email: 'vedant@socify.com', sex: 'male', password: 'password')
+      user = User.new(name: 'Mani', email: 'mani@socify.com', sex: 'female', password: 'password')
     user.skip_confirmation!
     user.save!
-    puts 'Created test user with email=vedant@socify.com and password=password'
+    puts 'Created test user with email=mani@socify.com and password=password'
 
     puts 'Generate Friendly id slug for users'
     puts '==================================='
