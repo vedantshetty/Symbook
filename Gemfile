@@ -35,7 +35,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'unicorn'
+  gem 'puma'
   gem 'rails_12factor'
   gem 'fog'
   gem 'fog-aws'
