@@ -4,13 +4,9 @@
 
 ***INSERT GRAPHIC HERE (include hyperlink in image)***
 
-# Repository Title Goes Here
+# Symbook - Facebook & Twitter Clone
 
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
+> Social media website built using ruby on rails for my 3rd year Software Engineering Project
 
 **Badges will go here**
 
@@ -70,97 +66,73 @@
 - [License](#license)
 
 
----
-
-## Example (Optional)
-
-```javascript
-// code away!
-
-let generateProject = project => {
-  let code = [];
-  for (let js = 0; js < project.length; js++) {
-    code.push(js);
-  }
-};
-```
 
 ---
 
 ## Installation
 
-- All the `code` required to get started
-- Images of what it should look like
-
 ### Clone
+- ``cd`` to the directory you want to save the application
 
-- Clone this repo to your local machine using `https://github.com/fvcproductions/SOMEREPO`
+- Clone this repo to your local machine
+
+  ``` 
+  git clone https://github.com/vedantshetty/Symbook.git
+  cd symbook
+  ```
 
 ### Setup
 
-- If you want more syntax highlighting, format your code like this:
+-Install the required gems using bundler
 
-> update and install this package first
+```
+bundle install
+```
+- Build the database schema by running the migrations
 
-```shell
-$ brew update
-$ brew install fvcproductions
+```
+rails db:migrate
 ```
 
-> now install npm and bower packages
+### Running
+- Run the rails server using 
+`` rails server ``
 
-```shell
-$ npm install
-$ bower install
-```
-
-- For all the possible languages that support syntax highlithing on GitHub (which is basically all of them), refer <a href="https://github.com/github/linguist/blob/master/lib/linguist/languages.yml" target="_blank">here</a>.
+- Optionally, you could also add mock data to test the app using 
+`` rails fill:data``
 
 ---
 
 ## Features
-## Usage (Optional)
-## Documentation (Optional)
-## Tests (Optional)
 
-- Going into more detail on code and technologies used
-- I utilized this nifty <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">Markdown Cheatsheet</a> for this sample `README`.
+## Technical Details
 
 ---
 
 ## Contributing
 
-> To get started...
+- Symbook was built as a fun project for college and is likely to have a lot of bugs and vulnerabilities. You can help ccontributing to the source code or even by raising an issue when you notice something not work as it should.
 
-### Step 1
+### Issues
+You can raise an issue by clicking [here](https://github.com/vedantshetty/Symbook/issues)
+
+### Pull-Requests
 
 - **Option 1**
     - 🍴 Fork this repo!
 
 - **Option 2**
-    - 👯 Clone this repo to your local machine using `https://github.com/joanaz/HireDot2.git`
+    - 👯 Clone this repo to your local machine using `git@github.com:vedantshetty/Symbook.git`
 
-### Step 2
+#### Step 2
 
 - **HACK AWAY!** 🔨🔨🔨
 
-### Step 3
+#### Step 3
 
-- 🔃 Create a new pull request using <a href="https://github.com/joanaz/HireDot2/compare/" target="_blank">`https://github.com/joanaz/HireDot2/compare/`</a>.
+- 🔃 Create a new pull request using [https://github.com/vedantshetty/Symbook/compare] (https://github.com/vedantshetty/Symbook/compare)
 
----
 
-## Team
-
-> Or Contributors/People
-
-| <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> | <a href="http://fvcproductions.com" target="_blank">**FVCproductions**</a> |
-| :---: |:---:| :---:|
-| [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)    | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) | [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com)  |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-
-- You can just grab their GitHub profile image URL
-- You should probably resize their picture using `?s=200` at the end of the image URL.
 
 ---
 
@@ -172,23 +144,11 @@ $ bower install
 ---
 
 ## Support
-
-Reach out to me at one of the following places!
-
-- Website at <a href="http://fvcproductions.com" target="_blank">`fvcproductions.com`</a>
-- Twitter at <a href="http://twitter.com/fvcproductions" target="_blank">`@fvcproductions`</a>
-- Insert more social links here.
-
+I am not very active on social media and may not respond for a while. 
+- Email at <a href="mailto:vshetty.vs@gmail.com" target="_blank">vshetty.vs@gmail.com</a>
+- Twitter at <a href="https://twitter.com/vedant_shety" target="_blank">`@vedant_shetty`</a>
 ---
 
-## Donations (Optional)
-
-- You could include a <a href="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png" target="_blank">Gratipay</a> link as well.
-
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/fvcproductions/)
-
-
----
 
 ## License
 
